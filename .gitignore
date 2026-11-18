@@ -1,0 +1,33 @@
+# Rust build output
+/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node legacy files and dependencies
+/node_modules/
+/package.json
+/package-lock.json
+/server.js
+/database.js
+
+# Uploaded files and local storage
+/uploads/
+
+# Build output
+/dist/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+/New Text Document.txt
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Editor placeholder files
+**/New Text Document.txt
